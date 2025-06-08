@@ -49,13 +49,13 @@
     }
   },
   "body": {
-    "title": "Voting rationale for action gov_action10k0unljvaej0kd89w7pn0zkgdx59c7xkl0x5q78dzvdtd73u0kmqq5xl5y5",
+    "title": "Voting rationale for action gov_action1mmalzkcxpyn33t05hml2hxpwq0ffv6uu4mhe8sv7guz5nmm4afysqlmepzl",
     "givenName": "Kyle Solomon",
     "image": {
       "@type": "ImageObject",
       "contentUrl": "https://raw.githubusercontent.com/adosiawolf/m/refs/heads/master/solomon-team-400x400.jpeg"
     },
-    "comment": "I have voted NO on the current proposal to set the NCL to 200M Ada. I firmly believe we need to establish a fiscally responsible annual NCL, but timing matters. The current timeline in the relevant proposal does not lend the ability to guarantee continuous funding as it forces larger proposals to consider multiple and subsequent treasury withdrawal actions to achieve target annual budgets, which are not guaranteed to successfully pass. Furthermore, I have previously voted YES on a 350M NCL, an amount which I believe may be a necessary contingency to account for unexpected delays in scaling (Leios) by permitting the ecosystem latitude to focus on Praos enhancements."
+    "comment": "I have voted NO on the current proposal.\n\nThe proposal author is unaffiliated with any of the projects initiatives being proposed and has not submitted this proposal on behalf of the stated budget administrator.\n\nI find introducing this degree of bureaucracy unwelcome and both detrimental and disrespectful to governance process."
   },
   "authors": [
     {
