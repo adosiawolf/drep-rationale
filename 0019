@@ -1,4 +1,4 @@
-{
+ {
   "@context": {
     "CIP100": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0100/README.md#",
     "hashAlgorithm": "CIP100:hashAlgorithm",
@@ -49,13 +49,13 @@
     }
   },
   "body": {
-    "title": "Voting rationale for action gov_action13tfag48nf94rtjcdq7c06vhkslmxxw9h6c88sl7q5g5nnewcsvlq77jt4x4",
+    "title": "Voting rationale for action gov_action13tfag48nf94rtjcdq7c06vhkslmxxw9h6c88sl7q5g5nnewcsvlpyflfc4s",
     "givenName": "Kyle Solomon",
     "image": {
       "@type": "ImageObject",
       "contentUrl": "https://raw.githubusercontent.com/adosiawolf/m/refs/heads/master/solomon-team-400x400.jpeg"
     },
-    "comment": "I have voted YES on the current proposal to fund ZK technology. Enabling native ZK support enhances Cardano L1 capabilities and prepares the ecosystem for the offshoot angle adoptions originate from ZK origins"
+    "comment": "I have voted NO on the current proposal to fund Cexplorer.io. The Cexplorer.io UX (imo) is subpar and as result this is not a site I personally rely upon. If relatively unuseful compared to competitive alternatives, how could I support when we haven't achieved anywhere close to the revenue pillars we need for ecosystem sustainability? Nah."
   },
   "authors": [
     {
