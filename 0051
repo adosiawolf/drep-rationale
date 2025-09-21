@@ -1,0 +1,66 @@
+{
+  "@context": {
+    "CIP100": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0100/README.md#",
+    "hashAlgorithm": "CIP100:hashAlgorithm",
+    "body": {
+      "@id": "CIP100:body",
+      "@context": {
+        "references": {
+          "@id": "CIP100:references",
+          "@container": "@set",
+          "@context": {
+            "GovernanceMetadata": "CIP100:GovernanceMetadataReference",
+            "Other": "CIP100:OtherReference",
+            "label": "CIP100:reference-label",
+            "uri": "CIP100:reference-uri",
+            "referenceHash": {
+              "@id": "CIP100:referenceHash",
+              "@context": {
+                "hashDigest": "CIP100:hashDigest",
+                "hashAlgorithm": "CIP100:hashAlgorithm"
+              }
+            }
+          }
+        },
+        "comment": "CIP100:comment",
+        "externalUpdates": {
+          "@id": "CIP100:externalUpdates",
+          "@context": {
+            "title": "CIP100:update-title",
+            "uri": "CIP100:uri"
+          }
+        }
+      }
+    },
+    "authors": {
+      "@id": "CIP100:authors",
+      "@container": "@set",
+      "@context": {
+        "name": "http://xmlns.com/foaf/0.1/name",
+        "witness": {
+          "@id": "CIP100:witness",
+          "@context": {
+            "witnessAlgorithm": "CIP100:witnessAlgorithm",
+            "publicKey": "CIP100:publicKey",
+            "signature": "CIP100:signature"
+          }
+        }
+      }
+    }
+  },
+  "body": {
+    "title": "Voting rationale for action gov_action1u4jrcvlkppjzuv5j9z5ksacwtvv77h6glu0knpcjut8gvjjfu0cqqt3alsy",
+    "givenName": "Kyle Solomon",
+    "image": {
+      "@type": "ImageObject",
+      "contentUrl": "https://raw.githubusercontent.com/adosiawolf/m/refs/heads/master/solomon-team-400x400.jpeg"
+    },
+    "comment": "I am voting YES on the Stablecoin DeFi Liquidity Budget proposal. The existance of a tDAO governed by a broad selection of dreps capable of adding/removing administrators or even shutting down the tDOA and retuning funds back to the treasury is a critical component. I have witnessed firsthand the progression and depth of community collaboration associated with this initiative, and believe both the intent and administrative skillsets reuired for successful execution are present. While aspects may appear imperfect, the tDAO structure appears to support adaptive management. As there is much we will learn of great value from this initiative to further our path towards sustainability, the initial team is well-known and trusted (reputations are valuable), and YOYO, LFG fam."
+   },
+  "authors": [
+    {
+      "name": "Kyle Solomon"
+    }
+  ],
+  "hashAlgorithm": "blake2b-256"
+}
