@@ -1,0 +1,66 @@
+{
+  "@context": {
+    "CIP100": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0100/README.md#",
+    "hashAlgorithm": "CIP100:hashAlgorithm",
+    "body": {
+      "@id": "CIP100:body",
+      "@context": {
+        "references": {
+          "@id": "CIP100:references",
+          "@container": "@set",
+          "@context": {
+            "GovernanceMetadata": "CIP100:GovernanceMetadataReference",
+            "Other": "CIP100:OtherReference",
+            "label": "CIP100:reference-label",
+            "uri": "CIP100:reference-uri",
+            "referenceHash": {
+              "@id": "CIP100:referenceHash",
+              "@context": {
+                "hashDigest": "CIP100:hashDigest",
+                "hashAlgorithm": "CIP100:hashAlgorithm"
+              }
+            }
+          }
+        },
+        "comment": "CIP100:comment",
+        "externalUpdates": {
+          "@id": "CIP100:externalUpdates",
+          "@context": {
+            "title": "CIP100:update-title",
+            "uri": "CIP100:uri"
+          }
+        }
+      }
+    },
+    "authors": {
+      "@id": "CIP100:authors",
+      "@container": "@set",
+      "@context": {
+        "name": "http://xmlns.com/foaf/0.1/name",
+        "witness": {
+          "@id": "CIP100:witness",
+          "@context": {
+            "witnessAlgorithm": "CIP100:witnessAlgorithm",
+            "publicKey": "CIP100:publicKey",
+            "signature": "CIP100:signature"
+          }
+        }
+      }
+    }
+  },
+  "body": {
+    "title": "Voting rationale for action gov_action15ce4qnwug759939wqv782pvh6qg68khspg8kh02gmex99mcsytwqqqr7jkr",
+    "givenName": "Kyle Solomon",
+    "image": {
+      "@type": "ImageObject",
+      "contentUrl": "https://raw.githubusercontent.com/adosiawolf/m/refs/heads/master/solomon-team-400x400.jpeg"
+    },
+    "comment": "I am voting NO on CARDANO BLOCKCHAIN ECOSYSTEM CONSTITUTION v2.4. First off, I love the work DeltaDefi is doing and think they should keep requesting funds. KPI dashboard makes a lot of sense but we have to nail KPIs first - a refined submission will come on chain in a few months this year. Also, please pursue funds from Builder DOA as they SHOULD be funding you guys - and also continue to socialize this initiative and come back with a hydra-focused infra budget if needed."
+   },
+  "authors": [
+    {
+      "name": "Kyle Solomon"
+    }
+  ],
+  "hashAlgorithm": "blake2b-256"
+}
