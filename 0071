@@ -1,0 +1,66 @@
+{
+  "@context": {
+    "CIP100": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0100/README.md#",
+    "hashAlgorithm": "CIP100:hashAlgorithm",
+    "body": {
+      "@id": "CIP100:body",
+      "@context": {
+        "references": {
+          "@id": "CIP100:references",
+          "@container": "@set",
+          "@context": {
+            "GovernanceMetadata": "CIP100:GovernanceMetadataReference",
+            "Other": "CIP100:OtherReference",
+            "label": "CIP100:reference-label",
+            "uri": "CIP100:reference-uri",
+            "referenceHash": {
+              "@id": "CIP100:referenceHash",
+              "@context": {
+                "hashDigest": "CIP100:hashDigest",
+                "hashAlgorithm": "CIP100:hashAlgorithm"
+              }
+            }
+          }
+        },
+        "comment": "CIP100:comment",
+        "externalUpdates": {
+          "@id": "CIP100:externalUpdates",
+          "@context": {
+            "title": "CIP100:update-title",
+            "uri": "CIP100:uri"
+          }
+        }
+      }
+    },
+    "authors": {
+      "@id": "CIP100:authors",
+      "@container": "@set",
+      "@context": {
+        "name": "http://xmlns.com/foaf/0.1/name",
+        "witness": {
+          "@id": "CIP100:witness",
+          "@context": {
+            "witnessAlgorithm": "CIP100:witnessAlgorithm",
+            "publicKey": "CIP100:publicKey",
+            "signature": "CIP100:signature"
+          }
+        }
+      }
+    }
+  },
+  "body": {
+    "title": "Voting rationale for action gov_action13qr78nhrhetywapvx2wpm63y9uxpc2dc45zsu9gkncasxqhuhltqqqfu32x",
+    "givenName": "Kyle Solomon",
+    "image": {
+      "@type": "ImageObject",
+      "contentUrl": "https://raw.githubusercontent.com/adosiawolf/m/refs/heads/master/solomon-team-400x400.jpeg"
+    },
+    "comment": "I am voting YES on Cardano x Draper Dragon: Orion Fund. I should abstain but this is too important. We have an existential gap in ecosystem funding. Catalyst is postponed and may never come back. Builder DOA will not produce the protocol revenue we need or investor-ready initiatives. Through my work with the Intersect Product Committee we have identified a dire need to enable multiple prongs of highly specialized ecosystem funding initiatives (Catalyst tried to do too much for too many). Draper Dragon fund addresses the tip of the spear and will ultimately get us our first Series A startup wins. Dreps who are nitpicking this proposal on the basis of imperfecton deserve to lose every last lovelace of delegation because they have demonstrated they are so damn out of touch with the ecosystem and too detached from the front lines to undersatnd WE DO NOT HAVE THE LUXURY OF TIME - signed one of the few (count on one hand) Cardano entrepreneurs with a track record of launching a highly successful product that: 1) played to Cardano's unique strengths, 2) created millions of on-chain transactions and 3) helped keep some of the best community talent in the ecosytem working here. We are going Series A and very much want Draper Dragon in the ecosystem supporting us."
+   },
+  "authors": [
+    {
+      "name": "Kyle Solomon"
+    }
+  ],
+  "hashAlgorithm": "blake2b-256"
+}
