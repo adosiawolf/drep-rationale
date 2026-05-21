@@ -55,9 +55,9 @@
       "@type": "ImageObject",
       "contentUrl": "https://raw.githubusercontent.com/adosiawolf/m/refs/heads/master/solomon-team-400x400.jpeg"
     },
-    "comment": "I am voting ABSTAIN on supporting the IO: Consensus Initiative.\n\n
+    "comment": "I am voting ABSTAIN on supporting the IO & Ensurable Systems: Cardano Maintenance Initiative.\n\n
 	This is the least transparent of all the IO proposals. Maintaining the Haskell node is abhsolutely necessary, though I cannot adequately assess this proposal given the lack of transparency. If we do indeeed need to spend > $15M annually to maintain the node, we have a very serious revenue problem which needs to be prioritized immediately. \n
-	Based on community sentiment I do not believe this proposal will pass without resubmission. Please resubmit with a greater degree of transparency such that adequate assessment can be made."
+	Based on community sentiment I do not believe this proposal will pass as-is. Please resubmit with a greater degree of transparency such that adequate assessment can be made."
    },
   "authors": [
     {
