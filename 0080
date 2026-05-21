@@ -63,7 +63,7 @@
 	4. The equivalence checking tool (formally proving two UPLC programs are semantically identical) is a technically compelling and underappreciated deliverable — it enables safe aggressive optimization \n
 	5. CBDE addresses a documented real problem; multi-day Nix setup is a well-known pain point in the ecosystem \n
 	6. At ~$3.1M for 12 months across seven organizations, the headline price is not unreasonable for this scope of formal methods work \n
-	7. The roadmap is the detailed and sequenced, and provides clear quarterly milestones" \n
+	7. The roadmap is the detailed and sequenced, and provides clear quarterly milestones"
    },
   "authors": [
     {
